@@ -1,0 +1,126 @@
+<html>
+	<head>
+		<title>Sudoku</title>
+		<link rel="stylesheet" type="text/css" href="estilo.css">
+		<script type="text/javascript" src="main.js"></script>
+		
+		<script language='JavaScript'>
+			
+		</script>
+ 		<meta charset='utf-8'>
+	</head>
+	<body>
+		<div id="conteudo">
+			<h1>Sudoku</h1>
+			<table border="1">
+				<tr>
+					<td><input type="text" id="celula0" maxlength="1" onkeypress='return SomenteNumero(event)'/></td>
+					<td><input type="text" id="celula1" maxlength="1" onkeypress='return SomenteNumero(event)'/></td>
+					<td><input type="text" id="celula2" maxlength="1" onkeypress='return SomenteNumero(event)'/></td>
+					<td><input type="text" id="celula3" maxlength="1" onkeypress='return SomenteNumero(event)'/></td>
+					<td><input type="text" id="celula4" maxlength="1" onkeypress='return SomenteNumero(event)'/></td>
+					<td><input type="text" id="celula5" maxlength="1" onkeypress='return SomenteNumero(event)'/></td>
+					<td><input type="text" id="celula6" maxlength="1" onkeypress='return SomenteNumero(event)'/></td>
+					<td><input type="text" id="celula7" maxlength="1" onkeypress='return SomenteNumero(event)'/></td>
+					<td><input type="text" id="celula8" maxlength="1" onkeypress='return SomenteNumero(event)'/></td>
+				</tr>
+				<tr>
+					<td><input type="text" id="celula9" maxlength="1" onkeypress='return SomenteNumero(event)'/></td>
+
+					<td><input type="text" id="celula10" maxlength="1" onkeypress='return SomenteNumero(event)'/></td>
+					<td><input type="text" id="celula11" maxlength="1" onkeypress='return SomenteNumero(event)'/></td>
+					<td><input type="text" id="celula12" maxlength="1" onkeypress='return SomenteNumero(event)'/></td>
+					<td><input type="text" id="celula13" maxlength="1" onkeypress='return SomenteNumero(event)'/></td>
+					<td><input type="text" id="celula14" maxlength="1" onkeypress='return SomenteNumero(event)'/></td>
+					<td><input type="text" id="celula15" maxlength="1" onkeypress='return SomenteNumero(event)'/></td>
+					<td><input type="text" id="celula16" maxlength="1" onkeypress='return SomenteNumero(event)'/></td>
+					<td><input type="text" id="celula17" maxlength="1" onkeypress='return SomenteNumero(event)'/></td>
+					
+				</tr>
+				<tr>
+					<td><input type="text" id="celula18" maxlength="1" onkeypress='return SomenteNumero(event)'/></td>
+					<td><input type="text" id="celula19" maxlength="1" onkeypress='return SomenteNumero(event)'/></td>
+					<td><input type="text" id="celula20" maxlength="1" onkeypress='return SomenteNumero(event)'/></td>
+					<td><input type="text" id="celula21" maxlength="1" onkeypress='return SomenteNumero(event)'/></td>
+					<td><input type="text" id="celula22" maxlength="1" onkeypress='return SomenteNumero(event)'/></td>
+					<td><input type="text" id="celula23" maxlength="1" onkeypress='return SomenteNumero(event)'/></td>
+					<td><input type="text" id="celula24" maxlength="1" onkeypress='return SomenteNumero(event)'/></td>
+					<td><input type="text" id="celula25" maxlength="1" onkeypress='return SomenteNumero(event)'/></td>
+					<td><input type="text" id="celula26" maxlength="1" onkeypress='return SomenteNumero(event)'/></td>
+				</tr>
+				<tr>
+					<td><input type="text" id="celula27" maxlength="1" onkeypress='return SomenteNumero(event)'/></td>
+					<td><input type="text" id="celula28" maxlength="1" onkeypress='return SomenteNumero(event)'/></td>
+					<td><input type="text" id="celula29" maxlength="1" onkeypress='return SomenteNumero(event)'/></td>
+					<td><input type="text" id="celula30" maxlength="1" onkeypress='return SomenteNumero(event)'/></td>
+					<td><input type="text" id="celula31" maxlength="1" onkeypress='return SomenteNumero(event)'/></td>
+					<td><input type="text" id="celula32" maxlength="1" onkeypress='return SomenteNumero(event)'/></td>
+					<td><input type="text" id="celula33" maxlength="1" onkeypress='return SomenteNumero(event)'/></td>
+					<td><input type="text" id="celula34" maxlength="1" onkeypress='return SomenteNumero(event)'/></td>
+					<td><input type="text" id="celula35" maxlength="1" onkeypress='return SomenteNumero(event)'/></td>
+				</tr>
+				<tr>
+					<td><input type="text" id="celula36" maxlength="1" onkeypress='return SomenteNumero(event)'/></td>
+					<td><input type="text" id="celula37" maxlength="1" onkeypress='return SomenteNumero(event)'/></td>
+					<td><input type="text" id="celula38" maxlength="1" onkeypress='return SomenteNumero(event)'/></td>
+					<td><input type="text" id="celula39" maxlength="1" onkeypress='return SomenteNumero(event)'/></td>
+					<td><input type="text" id="celula40" maxlength="1" onkeypress='return SomenteNumero(event)'/></td>
+					<td><input type="text" id="celula41" maxlength="1" onkeypress='return SomenteNumero(event)'/></td>
+					<td><input type="text" id="celula42" maxlength="1" onkeypress='return SomenteNumero(event)'/></td>
+					<td><input type="text" id="celula43" maxlength="1" onkeypress='return SomenteNumero(event)'/></td>
+					<td><input type="text" id="celula44" maxlength="1" onkeypress='return SomenteNumero(event)'/></td>
+				</tr>
+				<tr>
+					<td><input type="text" id="celula45" maxlength="1" onkeypress='return SomenteNumero(event)'/></td>
+					<td><input type="text" id="celula46" maxlength="1" onkeypress='return SomenteNumero(event)'/></td>
+					<td><input type="text" id="celula47" maxlength="1" onkeypress='return SomenteNumero(event)'/></td>
+					<td><input type="text" id="celula48" maxlength="1" onkeypress='return SomenteNumero(event)'/></td>
+					<td><input type="text" id="celula49" maxlength="1" onkeypress='return SomenteNumero(event)'/></td>
+					<td><input type="text" id="celula50" maxlength="1" onkeypress='return SomenteNumero(event)'/></td>
+					<td><input type="text" id="celula51" maxlength="1" onkeypress='return SomenteNumero(event)'/></td>
+					<td><input type="text" id="celula52" maxlength="1" onkeypress='return SomenteNumero(event)'/></td>
+					<td><input type="text" id="celula53" maxlength="1" onkeypress='return SomenteNumero(event)'/></td>
+				</tr>
+				<tr>
+					<td><input type="text" id="celula54" maxlength="1" onkeypress='return SomenteNumero(event)'/></td>
+					<td><input type="text" id="celula55" maxlength="1" onkeypress='return SomenteNumero(event)'/></td>
+					<td><input type="text" id="celula56" maxlength="1" onkeypress='return SomenteNumero(event)'/></td>
+					<td><input type="text" id="celula57" maxlength="1" onkeypress='return SomenteNumero(event)'/></td>
+					<td><input type="text" id="celula58" maxlength="1" onkeypress='return SomenteNumero(event)'/></td>
+					<td><input type="text" id="celula59" maxlength="1" onkeypress='return SomenteNumero(event)'/></td>
+					<td><input type="text" id="celula60" maxlength="1" onkeypress='return SomenteNumero(event)'/></td>
+					<td><input type="text" id="celula61" maxlength="1" onkeypress='return SomenteNumero(event)'/></td>
+					<td><input type="text" id="celula62" maxlength="1" onkeypress='return SomenteNumero(event)'/></td>
+				</tr>
+				<tr>
+					<td><input type="text" id="celula63" maxlength="1" onkeypress='return SomenteNumero(event)'/></td>
+					<td><input type="text" id="celula64" maxlength="1" onkeypress='return SomenteNumero(event)'/></td>
+					<td><input type="text" id="celula65" maxlength="1" onkeypress='return SomenteNumero(event)'/></td>
+					<td><input type="text" id="celula66" maxlength="1" onkeypress='return SomenteNumero(event)'/></td>
+					<td><input type="text" id="celula67" maxlength="1" onkeypress='return SomenteNumero(event)'/></td>
+					<td><input type="text" id="celula68" maxlength="1" onkeypress='return SomenteNumero(event)'/></td>
+					<td><input type="text" id="celula69" maxlength="1" onkeypress='return SomenteNumero(event)'/></td>
+					<td><input type="text" id="celula70" maxlength="1" onkeypress='return SomenteNumero(event)'/></td>
+					<td><input type="text" id="celula71" maxlength="1" onkeypress='return SomenteNumero(event)'/></td>
+				</tr>
+				<tr>
+					<td><input type="text" id="celula72" maxlength="1" onkeypress='return SomenteNumero(event)'/></td>
+					<td><input type="text" id="celula73" maxlength="1" onkeypress='return SomenteNumero(event)'/></td>
+					<td><input type="text" id="celula74" maxlength="1" onkeypress='return SomenteNumero(event)'/></td>
+					<td><input type="text" id="celula75" maxlength="1" onkeypress='return SomenteNumero(event)'/></td>
+					<td><input type="text" id="celula76" maxlength="1" onkeypress='return SomenteNumero(event)'/></td>
+					<td><input type="text" id="celula77" maxlength="1" onkeypress='return SomenteNumero(event)'/></td>
+					<td><input type="text" id="celula78" maxlength="1" onkeypress='return SomenteNumero(event)'/></td>
+					<td><input type="text" id="celula79" maxlength="1" onkeypress='return SomenteNumero(event)'/></td>
+					<td><input type="text" id="celula80" maxlength="1" onkeypress='return SomenteNumero(event)'/></td>
+				</tr>
+			</table>
+			<button onclick="corrigir()">Corrigir</button>
+			<ul>
+				<li class="left"><button onclick="novojogo()">Novo Jogo</button></li>
+				<li class="left"><button onclick="solucao()">Solução</button></li>
+				<li class="left"><button onClick="reset()">Limpar</button></li>
+			</ul>
+		</div>
+	</body>
+</html>

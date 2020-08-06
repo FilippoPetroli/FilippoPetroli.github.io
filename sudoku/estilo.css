@@ -1,0 +1,69 @@
+@font-face {
+    font-family: 'erasaurregular';
+    src: url('fonte/erasaur-webfont.eot');
+    src: url('erasaur-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonte/erasaur-webfont.woff') format('woff'),
+         url('fonte/erasaur-webfont.ttf') format('truetype'),
+         url('fonte/erasaur-webfont.svg#erasaurregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+h1{
+	font-family: 'erasaurregular';
+	margin-top: 40px;
+	font-size: 150px;
+	text-align: center;
+	line-height: 60px;
+	color: #FFA500;
+}
+.editavel {
+	color: #4682B4;
+}
+.left{
+	float: left;
+}
+
+table {
+	margin-top: -20px;
+	margin-left: 17px;
+}
+td{
+	width: 50px;
+	height: 50px;
+}
+input{
+	width: 50px;
+	height: 50px;
+	font-size: 30px;
+	text-align: center;
+}
+body {
+	background: url('back.png');
+}
+#conteudo {
+	margin: 0 auto;
+	display: table;
+}
+button{
+	cursor: pointer;
+	border: none;
+	border-radius: 5px;
+	width: 130px;
+	height: 40px;
+	text-align: center;
+	border-radius: 7px;
+	color: #fff;
+	display: block;
+	font-size: 20px;
+	margin-right: 40px;
+	text-shadow: -1px -1px #006a6f;
+	font-family: 'Verdana';
+	background: -moz-linear-gradient(top, #009aa0 0%, #00595d 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#009aa0), color-stop(100%, #00595d));
+	background: -webkit-linear-gradient(top, #009aa0 0%, #00595d 100%);
+	background: -o-linear-gradient(top, #009aa0 0%, #00595d 100%);
+	background: -ms-linear-gradient(top, #009aa0 0%, #00595d 100%);
+	background: linear-gradient(to bottom, #009aa0 0%, #00595d 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#009aa0', endColorstr='#00595d',GradientType=0 );
+
+}
